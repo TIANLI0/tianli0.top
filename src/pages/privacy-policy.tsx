@@ -1,5 +1,6 @@
 import { Component, ReactNode } from "react";
 import Markdown from "../components/Markdown";
+import { Alert } from '@fluentui/react-components/unstable';
 
 export default class PrivacyPolicy extends Component {
     constructor(props: any) {
@@ -15,11 +16,9 @@ export default class PrivacyPolicy extends Component {
         fetch("/documents/PrivacyPolicy_en.md")
             .then(enres=>enres.text())
             .then((endata) => {
-                console.log(endata)
                 fetch("/documents/PrivacyPolicy_cn.md")
                     .then(cnres=>cnres.text())
                     .then((cndata) => {
-                        console.log(cndata)
                         this.setState({
                             en: endata,
                             cn: cndata

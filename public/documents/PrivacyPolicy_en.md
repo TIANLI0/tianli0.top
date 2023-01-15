@@ -46,6 +46,10 @@ We will provide Cloudlare with some of your personal information to count websit
 
 We will provide Tianli CDN with your IP address and request information for Tianli CDN to hijack malicious requests.
 
+### 51LA
+
+We will provide 51LA with your IP address and approximate location to count website visits.
+
 ## How do we save your personal information
 
 We will save your personal information in our database.

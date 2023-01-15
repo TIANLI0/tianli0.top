@@ -1,4 +1,5 @@
 import { Button, Link, makeStyles } from '@fluentui/react-components'
+import { Alert } from '@fluentui/react-components/unstable'
 import { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import '../styles/index.css'
@@ -41,7 +42,7 @@ export default function Markdown(props: { cn_title: string, en_title: string, cn
                 <h1 className={styles.title}>
                     {props.cn_title}
                     <br />
-                    <Button appearance='primary' size='large' onClick={()=>{setLang('en')}} className={styles.switchButton}>
+                    <Button appearance='primary' onClick={()=>{setLang('en')}} className={styles.switchButton}>
                         Switch To Engilsh
                     </Button>
                 </h1>
@@ -63,7 +64,7 @@ export default function Markdown(props: { cn_title: string, en_title: string, cn
             <h1 className={styles.title}>
                 {props.en_title}
                 <br />
-                <Button appearance='primary' size='large' onClick={()=>{setLang('cn')}} className={styles.switchButton}>
+                <Button appearance='primary' onClick={()=>{setLang('cn')}} className={styles.switchButton}>
                     切换到 中文(简体)
                 </Button>
             </h1>

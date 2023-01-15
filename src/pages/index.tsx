@@ -1,5 +1,6 @@
 import { HomeButton, HomePrimaryButton } from '../components/HomeButton'
 import { Link, makeStyles } from '@fluentui/react-components';
+import { Alert } from '@fluentui/react-components/unstable';
 import '../styles/index.css'
 
 const useStyles = makeStyles({
@@ -32,6 +33,9 @@ export default function Home() {
     const styles = useStyles()
     return (
         <div>
+            <Alert intent='info'>
+                We have updated our privacy policy.
+            </Alert>
             <div className={styles.title}>
                 <h1>Hello,</h1>
                 <h1>I'm <span className={styles.name}>Redish101</span>.</h1>
