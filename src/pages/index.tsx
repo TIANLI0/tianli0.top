@@ -49,7 +49,7 @@ export default function Home() {
             <footer className={styles.footer}>
                 <span>
                     © 2021 - {new Date().getFullYear()} Tianli. All rights reserved.
-                    <Link href='https://beian.miit.gov.cn/' className={styles.footer_link}>https://beian.miit.gov.cn/</Link>
+                    <Link href='https://beian.miit.gov.cn/' className={styles.footer_link}>蜀ICP备2021004404号-1</Link>
                 </span>
             </footer>
         </div>
