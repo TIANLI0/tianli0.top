@@ -35,21 +35,21 @@ export default function Home() {
         <div>
             <div className={styles.title}>
                 <h1>Hello,</h1>
-                <h1>I'm <span className={styles.name}>Redish101</span>.</h1>
-                <p>Front-end Developer / Back-end Developer / Blogger</p>
+                <h1>I'm <span className={styles.name}>Tianli</span>.</h1>
+                <p>Student / Back-end Developer / Blogger</p>
             </div>
             <div className={styles.wrapper}>
-                <HomePrimaryButton link='https://blog.redish101.top'>
+                <HomePrimaryButton link='https://tianli-blog.club/'>
                     Blog
                 </HomePrimaryButton>
-                <HomeButton link='https://github.com/Redish101'>
+                <HomeButton link='https://github.com/TIANLI0'>
                     GitHub
                 </HomeButton>
             </div>
             <footer className={styles.footer}>
                 <span>
-                    © 2023 - {new Date().getFullYear()} Redish101. All rights reserved.
-                    <Link href='/#/privacy-policy' className={styles.footer_link}>Privacy Policy</Link>
+                    © 2021 - {new Date().getFullYear()} Tianli. All rights reserved.
+                    <Link href='https://beian.miit.gov.cn/' className={styles.footer_link}>https://beian.miit.gov.cn/</Link>
                 </span>
             </footer>
         </div>
