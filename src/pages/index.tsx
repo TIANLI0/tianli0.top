@@ -36,7 +36,7 @@ export default function Home() {
             <div className={styles.title}>
                 <h1>Hello,</h1>
                 <h1>I'm <span className={styles.name}>Tianli</span>.</h1>
-                <p>Student / Back-end Developer / Blogger</p>
+                <p>OISE Student / Back-end Developer / Blogger</p>
             </div>
             <div className={styles.wrapper}>
                 <HomePrimaryButton link='https://tianli-blog.club/'>
