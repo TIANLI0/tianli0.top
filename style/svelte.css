@@ -1,0 +1,17 @@
+header.svelte-1ena5bt {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 0
+}
+
+.icon.svelte-1kp182d svg {
+    width: 30px;
+    height: 30px
+}
+
+.main.svelte-16y6iu1 {
+    z-index: 1;
+    transform: translateZ(0);
+    -webkit-transform: translate3d(0,0,0)
+}
