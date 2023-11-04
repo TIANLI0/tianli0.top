@@ -11,7 +11,7 @@
         "bga": "#1A1D1A",
         "light": true
 	},
-    "1": {
+    "Pink": {
         "primary": "#FAF1F4",
         "secondary": "#FFFBFF",
         "card": "#ffdad6",
@@ -21,6 +21,66 @@
         "font1": "#000000",
         "font2": "#000000",
         "bga": "#FFFBFF",
+        "light": true
+    },
+    "Blue": {
+        "primary": "#C0E4FD",
+        "secondary": "#E3F2FD",
+        "card": "#B3E5FC",
+        "bg": "#B3E5FC",
+        "bgs": "#ECF6FD",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#E3F2FD",
+        "light": true
+    },
+    "Green": {
+        "primary": "#D9EAD7",
+        "secondary": "#F6F3D4",
+        "card": "#EDEFE3",
+        "bg": "#EDEFE3",
+        "bgs": "#FCF9EF",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#F6F3D4",
+        "light": true
+    },
+    "Purple": {
+        "primary": "#EDE7F6",
+        "secondary": "#F3E5F5",
+        "card": "#E1BEE7",
+        "bg": "#E1BEE7",
+        "bgs": "#F3E5F5",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#F3E5F5",
+        "light": true
+    },
+    "Yellow": {
+        "primary": "#FFF9C4",
+        "secondary": "#FFFDE7",
+        "card": "#FFF59D",
+        "bg": "#FFF59D",
+        "bgs": "#FFFDE7",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#FFFDE7",
+        "light": true
+    },
+    "Red": {
+        "primary": "#FFCDD2",
+        "secondary": "#FFEBEE",
+        "card": "#FFCDD2",
+        "bg": "#FFCDD2",
+        "bgs": "#FFEBEE",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#FFEBEE",
         "light": true
     }
 }
