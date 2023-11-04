@@ -1,16 +1,4 @@
 {
-	"default": {
-		"primary": "#EDEFE3",
-        "secondary": "#FCF9EF",
-		"card": "#F6F3D4",
-        "bg": "#D9EAD7",
-		"bgs": "#383934",
-        "bgfont": "#000000",
-        "font1": "#000000",
-        "font2": "#FFFFFF",
-        "bga": "#1A1D1A",
-        "light": true
-	},
     "Pink": {
         "primary": "#FAF1F4",
         "secondary": "#FFFBFF",
@@ -81,6 +69,105 @@
         "font1": "#000000",
         "font2": "#000000",
         "bga": "#FFEBEE",
+        "light": true
+    },
+    "Orange":{
+        "primary": "#FFE0B2",
+        "secondary": "#FFF3E0",
+        "card": "#FFCC80",
+        "bg": "#FFCC80",
+        "bgs": "#FFF3E0",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#FFF3E0",
+        "light": true
+    },
+    "Gray":{
+        "primary": "#E0E0E0",
+        "secondary": "#F5F5F5",
+        "card": "#BDBDBD",
+        "bg": "#BDBDBD",
+        "bgs": "#F5F5F5",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#F5F5F5",
+        "light": true
+    },
+    "DeepSkyBlue":{
+        "primary": "#BBDEFB",
+        "secondary": "#E3F2FD",
+        "card": "#90CAF9",
+        "bg": "#90CAF9",
+        "bgs": "#E3F2FD",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#E3F2FD",
+        "light": true
+    },
+    "Fuchsia":{
+        "primary": "#F8BBD0",
+        "secondary": "#FCE4EC",
+        "card": "#F48FB1",
+        "bg": "#F48FB1",
+        "bgs": "#FCE4EC",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#FCE4EC",
+        "light": true
+    },
+    "Brown":{
+        "primary": "#D7CCC8",
+        "secondary": "#EFEBE9",
+        "card": "#BCAAA4",
+        "bg": "#BCAAA4",
+        "bgs": "#EFEBE9",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#EFEBE9",
+        "light": true
+    },
+    "PaleTurquoise":
+    {
+        "primary": "#B2EBF2",
+        "secondary": "#E0F7FA",
+        "card": "#80DEEA",
+        "bg": "#80DEEA",
+        "bgs": "#E0F7FA",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#E0F7FA",
+        "light": true
+    },
+    "LightGreen":
+    {
+        "primary": "#DCEDC8",
+        "secondary": "#F1F8E9",
+        "card": "#C5E1A5",
+        "bg": "#C5E1A5",
+        "bgs": "#F1F8E9",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#F1F8E9",
+        "light": true
+    },
+    "AliceBlue":
+    {
+        "primary": "#E3F2FD",
+        "secondary": "#E3F2FD",
+        "card": "#E3F2FD",
+        "bg": "#E3F2FD",
+        "bgs": "#E3F2FD",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#E3F2FD",
         "light": true
     }
 }

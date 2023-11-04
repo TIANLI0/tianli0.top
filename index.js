@@ -51,70 +51,86 @@ xhr.onload = function() {
         if (secondaryHexValue == '#000000'){
             secondaryHexValue = bgHexValue;
         }
+        if (theme!="default"){
 
+            // 主要卡片背景色
+            const elements1 = document.querySelectorAll('.bg-hex-EDEFE3');
+            elements1.forEach(element => {
+                element.style.backgroundColor = primaryHexValue; 
+            });
 
-        // 主要卡片背景色
-        const elements1 = document.querySelectorAll('.bg-hex-EDEFE3');
-        elements1.forEach(element => {
-            element.style.backgroundColor = primaryHexValue; 
-        });
+            // 次要卡片背景色
+            const elements2 = document.querySelectorAll('.bg-hex-FCF9EF');
+            elements2.forEach(element => {
+                element.style.backgroundColor = secondaryHexValue; 
+            });
 
-        // 次要卡片背景色
-        const elements2 = document.querySelectorAll('.bg-hex-FCF9EF');
-        elements2.forEach(element => {
-            element.style.backgroundColor = secondaryHexValue; 
-        });
+            // 子卡片背景色
+            const elements3 = document.querySelectorAll('.bg-hex-F6F3D4');
+            elements3.forEach(element => {
+                element.style.backgroundColor = cardHexValue; 
+            });
 
-        // 子卡片背景色
-        const elements3 = document.querySelectorAll('.bg-hex-F6F3D4');
-        elements3.forEach(element => {
-            element.style.backgroundColor = cardHexValue; 
-        });
+            // 按钮背景色
+            const elements4 = document.querySelectorAll('.bg-hex-D9EAD7');
+            elements4.forEach(element => {
+                element.style.backgroundColor = bgHexValue; 
+            });
 
-        // 按钮背景色
-        const elements4 = document.querySelectorAll('.bg-hex-D9EAD7');
-        elements4.forEach(element => {
-            element.style.backgroundColor = bgHexValue; 
-        });
+            // 按钮外围
+            const elements5 = document.querySelectorAll('.bg-hex-383934');
+            elements5.forEach(element => {
+                element.style.backgroundColor = bgsHexValue;
+            });
 
-        // 按钮外围
-        const elements5 = document.querySelectorAll('.bg-hex-383934');
-        elements5.forEach(element => {
-            element.style.backgroundColor = bgsHexValue;
-        });
+            // 按钮文字
+            const elements6 = document.querySelectorAll('.text-hex-363C33');
+            elements6.forEach(element => {
+                element.style.color = bgfontHexValue; 
+            });
+            // 昵称文字
+            const elements7 = document.querySelectorAll('.text-hex-fff');
+            elements7.forEach(element => {
+                element.style.color = font2HexValue; 
+            });
+            // 信息文字
+            const elements8 = document.querySelectorAll('.text-opacity-50');
+            elements8.forEach(element => {
+                const rgbaColor = font2HexValue + "80";
+                element.style.color = rgbaColor; 
+            });
+            // 一级二级卡片展示文字
+            const elements9 = document.querySelectorAll('.text-hex-000');
+            elements9.forEach(element => {
+                element.style.color = font1HexValue; 
+            });
+            const elements9b = document.querySelectorAll('.font-bold');
+            elements9b.forEach(element => {
+                element.style.color = font2HexValue; 
+            });
+            // 三级卡片展示文字
+            const elements10 = document.querySelectorAll('.opacity-70');
+            elements10.forEach(element => {
+                const rgbaColor = font1HexValue + "B3";
+                element.style.color = rgbaColor; 
+            });
+            // 背景色
+            const elements11 = document.querySelectorAll('.bg-hex-1A1D1A');
+            elements11.forEach(element => {
+                element.style.backgroundColor = bgaHexValue;
+            });
 
-        // 按钮文字
-        const elements6 = document.querySelectorAll('.text-hex-363C33');
-        elements6.forEach(element => {
-            element.style.color = bgfontHexValue; 
-        });
-        // 昵称文字
-        const elements7 = document.querySelectorAll('.text-hex-fff');
-        elements7.forEach(element => {
-            element.style.color = font2HexValue; 
-        });
-        // 信息文字
-        const elements8 = document.querySelectorAll('.text-opacity-50');
-        elements8.forEach(element => {
-            const rgbaColor = font2HexValue + "80";
-            element.style.color = rgbaColor; 
-        });
-        // 一级二级卡片展示文字
-        const elements9 = document.querySelectorAll('.text-hex-000');
-        elements9.forEach(element => {
-            element.style.color = font1HexValue; 
-        });
-        // 三级卡片展示文字
-        const elements10 = document.querySelectorAll('.opacity-70');
-        elements10.forEach(element => {
-            const rgbaColor = font1HexValue + "B3";
-            element.style.color = rgbaColor; 
-        });
-        // 背景色
-        const elements11 = document.querySelectorAll('.bg-hex-1A1D1A');
-        elements11.forEach(element => {
-            element.style.backgroundColor = bgaHexValue; 
-        });
+            // 备案号
+            const elements12 = document.querySelectorAll('.beian');
+            elements12.forEach(element => {
+                element.style.color = font1HexValue+ "B3";
+            });
+            // 获取所有的SVG元素
+            const svgElements = document.querySelectorAll('.icon path');
+            svgElements.forEach(svgElement => {
+            svgElement.setAttribute('fill', font1HexValue); 
+            });
+        }
     }
 };
 
