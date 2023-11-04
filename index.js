@@ -1,4 +1,7 @@
 var xhr = new XMLHttpRequest();
+// 指定主题颜色
+var theme = "random"
+var Darktheme = "default"
 xhr.open('GET', '/style/material-color.json', true);
 
 // 当请求完成时执行的回调函数
@@ -6,11 +9,19 @@ xhr.onload = function() {
     if (xhr.status === 200) {
         // 解析JSON数据
         var data = JSON.parse(xhr.responseText);
-
-        // 随机选取一组数据
-        var colorKeys = Object.keys(data);
-        var randomColorKey = colorKeys[Math.floor(Math.random() * colorKeys.length)];
-        var colorData = data[randomColorKey];
+        // 判断是否为深色模式
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            theme = Darktheme;
+        }
+        if (theme=="random"){
+            // 随机选取一组数据
+            var colorKeys = Object.keys(data);
+            var randomColorKey = colorKeys[Math.floor(Math.random() * colorKeys.length)];
+            var colorData = data[randomColorKey];
+        } else  {
+            colorData = data[theme];
+        }
+        
 
         // 获取需要的数据
         var primaryHexValue = colorData.primary;
