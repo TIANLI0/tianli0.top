@@ -570,7 +570,7 @@ svg,img {
 
 :root {
     --scrollbar-track-color: #fff;
-    --scrollbar-thumb-color: #616200
+    --scrollbar-thumb-color: #0a08083d
 }
 
 html {
@@ -617,4 +617,8 @@ body {
 /* 滚动条滑块悬停状态 */
 textarea {
     resize: vertical; 
+}
+
+.beian {
+    text-align: center;
 }

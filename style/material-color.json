@@ -1,0 +1,26 @@
+{
+	"default": {
+		"primary": "#EDEFE3",
+        "secondary": "#FCF9EF",
+		"card": "#F6F3D4",
+        "bg": "#D9EAD7",
+		"bgs": "#383934",
+        "bgfont": "#000000",
+        "font1": "#000000",
+        "font2": "#FFFFFF",
+        "bga": "#1A1D1A",
+        "light": true
+	},
+    "1": {
+        "primary": "#FAF1F4",
+        "secondary": "#FFFBFF",
+        "card": "#ffdad6",
+        "bg": "#ffdad6",
+        "bgs": "#ffe9e7",
+        "bgfont": "#1e192b",
+        "font1": "#000000",
+        "font2": "#000000",
+        "bga": "#FFFBFF",
+        "light": true
+    }
+}
